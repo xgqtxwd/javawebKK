@@ -7,6 +7,8 @@ public class JdbcService {
         jdbcTest.select();
         jdbcTest.update();
         jdbcTest.delete();
+        jdbcTest.BatchInsert();
+        jdbcTest.RollingSet();
     }
 
 }
